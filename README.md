@@ -16,6 +16,20 @@ Hello my name is Jordan-Michael Kirk. This project is made so all the elements a
 
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+Here are some examples of the different layouts of the project.
 
-Good luck and have fun!
+![layout 1](./images/project-photo-1.png)
+
+![layout 2](./images/project-photo-2.png)
+
+![layout 3](./images/project-photo-3.png)
+
+![layout 4](./images/project-photo-4.png)
+
+**Deployed Project**
+
+- [link to the deployed project on GitHub](https://jmjk131-boop.github.io/se_project_spots/)
+
+**Project Pitch Video**
+
+Check out [this video](https://drive.google.com/file/d/1KijycIaFxDmaZuJ7LZVIixONOkfLj5jP/view?usp=drive_link), where I describe my project and some challenges I faced while building it.
