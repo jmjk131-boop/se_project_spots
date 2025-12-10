@@ -3,7 +3,7 @@
   width: 100%;
   object-fit: cover;
   display: block;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .card__title {
   margin: 0;
@@ -27,6 +27,7 @@
   height: 20px;
   border: none;
   background-color: transparent;
+  background-repeat: no-repeat;
   opacity: 40%;
 }
 .card__like-button:hover {
