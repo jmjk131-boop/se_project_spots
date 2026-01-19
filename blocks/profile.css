@@ -47,10 +47,11 @@
   gap: 8px;
   padding: 0;
   color: #212121;
-  opacity: 70%;
+  opacity: 0.7;
+  cursor: pointer;
 }
 .profile__edit-button:hover {
-  opacity: 100%;
+  opacity: 1;
 }
 .profile__add-button {
   color: #fcf5e5;
@@ -64,9 +65,10 @@
   gap: 8px;
   justify-content: center;
   border-radius: 10px;
+  cursor: pointer;
 }
 .profile__add-button:hover {
-  opacity: 80%;
+  opacity: 0.8;
 }
 .profile__add-button-icon {
   width: 12px;

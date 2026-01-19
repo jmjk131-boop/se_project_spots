@@ -3,8 +3,7 @@
   min-height: 100vh;
   font-family: Poppins, "Times New Roman", serif;
   font-weight: 500;
-  font-style: Medium;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 .page__section {
   max-width: 1280px;

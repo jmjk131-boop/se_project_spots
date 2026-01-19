@@ -44,19 +44,20 @@
   border: none;
   background-position: center;
   padding: 0;
-  opacity: 40%;
+  opacity: 0.4;
+  cursor: pointer;
 }
 .modal__close-button:hover {
-  opacity: 100%;
+  opacity: 1;
 }
 .modal__close-button_type_preview {
   top: 0;
   right: -52.5px;
   background-image: url(../images/Group\ 27.svg);
-  opacity: 100%;
+  opacity: 1;
 }
 .modal__close-button_type_preview:hover {
-  opacity: 40%;
+  opacity: 0.4;
 }
 
 .modal__title {
@@ -101,6 +102,11 @@
   border-radius: 8px;
   font-size: 16px;
   line-height: 1;
+  cursor: pointer;
+}
+
+.modal__submit-button:hover {
+  opacity: 0.4;
 }
 
 .modal__image-container {
@@ -139,6 +145,9 @@
   .modal__close-button_type_preview {
     top: -48px;
     right: 0;
+  }
+  .modal__caption {
+    font-size: 16px;
   }
   .modal__title {
     margin: 0 0 24px;

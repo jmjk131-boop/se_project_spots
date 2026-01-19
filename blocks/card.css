@@ -8,6 +8,7 @@
   object-fit: cover;
   display: block;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .card__delete-button {
@@ -22,6 +23,7 @@
   border-radius: 50%;
   background-position: center;
   border: none;
+  cursor: pointer;
 }
 
 .card__delete-button:hover {
@@ -52,6 +54,7 @@
   background-color: transparent;
   background-repeat: no-repeat;
   opacity: 0.4;
+  cursor: pointer;
 }
 .card__like-button:hover {
   opacity: 1;

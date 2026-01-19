@@ -136,12 +136,14 @@ function handleAddCardSubmit(evt) {
   evt.preventDefault();
 
   const inputValues = {
-    name: newPostImageInput.value,
-    link: newPostCaptionInput.value,
+    name: newPostCaptionInput.value,
+    link: newPostImageInput.value,
   };
 
   const cardElement = getCardElement(inputValues);
   cardsList.prepend(cardElement);
+
+  evt.target.reset();
 
   closeModal(newPostModal);
 }
