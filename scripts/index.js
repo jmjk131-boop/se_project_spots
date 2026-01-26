@@ -94,11 +94,28 @@ function getCardElement(data) {
 
   return cardElement;
 }
-
+function handleEscape(evt) {
+  if (evt.key === "Escape") {
+    const openModal = document.querySelector(".modal_is-opened");
+    if (openModal) {
+      closeModal(openModal);
+    }
+  }
+}
 function openModal(modal) {
+  function handleOverlayClose(evt) {
+    if (evt.target.classList.contains("modal")) closeModal(evt.target);
+  }
+  modal.addEventListener("mousedown", handleOverlayClose);
+  document.addEventListener("keydown", handleEscape);
   modal.classList.add("modal_is-opened");
 }
 function closeModal(modal) {
+  function handleOverlayClose(evt) {
+    if (evt.target.classList.contains("modal")) closeModal(evt.target);
+  }
+  modal.removeEventListener("mousedown", handleOverlayClose);
+  document.removeEventListener("keydown", handleEscape);
   modal.classList.remove("modal_is-opened");
 }
 
