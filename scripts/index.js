@@ -102,20 +102,18 @@ function handleEscape(evt) {
     }
   }
 }
+function handleOverlayClose(evt) {
+  if (evt.target.classList.contains("modal")) closeModal(evt.target);
+}
+
 function openModal(modal) {
-  function handleOverlayClose(evt) {
-    if (evt.target.classList.contains("modal")) closeModal(evt.target);
-  }
   modal.addEventListener("mousedown", handleOverlayClose);
-  document.addEventListener("keydown", handleEscape);
+  modal.addEventListener("keydown", handleEscape);
   modal.classList.add("modal_is-opened");
 }
 function closeModal(modal) {
-  function handleOverlayClose(evt) {
-    if (evt.target.classList.contains("modal")) closeModal(evt.target);
-  }
   modal.removeEventListener("mousedown", handleOverlayClose);
-  document.removeEventListener("keydown", handleEscape);
+  modal.removeEventListener("keydown", handleEscape);
   modal.classList.remove("modal_is-opened");
 }
 
