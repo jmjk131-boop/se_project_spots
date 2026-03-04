@@ -22,6 +22,9 @@
   justify-content: center;
   visibility: hidden;
   border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 1);
+  gap: 8px;
 }
 .profile__avatar-container:hover .profile__avatar-button {
   visibility: visible;
@@ -105,6 +108,18 @@
   }
   .profile__avatar-button {
     visibility: visible;
+    height: 24px;
+    width: 24px;
+    margin: 52px 52px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    border: none;
+  }
+  .profile__pencil-icon {
+    margin: 0;
   }
   .profile__avatar-button::after {
     content: "";
